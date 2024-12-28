@@ -8,10 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shell';
-
-  constructor(private service: AuthLibService, http: HttpClient) {
+  
+  constructor(public service: AuthLibService) {
     this.service.login('Max', null);
   }
-
 }
-

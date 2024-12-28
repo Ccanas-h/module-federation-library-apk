@@ -34,7 +34,13 @@
 </style>
 
 <div id="container">
-  
+    <div>User: {{user}}</div>
+    <div>User: {{lastName$ | async}}</div>
+
+    <button (click)="service.changeLastName()">
+        Cambiar apellido
+    </button>
+
     <div>
         <img src="../../../assets/angular.png" width="50">
     </div>

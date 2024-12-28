@@ -7,6 +7,8 @@ import { AuthLibService } from 'auth-lib';
 })
 export class HomeComponent implements OnInit {
 
+  constructor(public service: AuthLibService) { }
+
   ngOnInit() {
   }
 

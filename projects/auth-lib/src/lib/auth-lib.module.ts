@@ -4,9 +4,13 @@ import { AuthLibComponent } from './auth-lib.component';
 
 
 @NgModule({
-  declarations: [AuthLibComponent],
+  declarations: [
+    AuthLibComponent
+  ],
   imports: [
   ],
-  exports: [AuthLibComponent]
+  exports: [
+    AuthLibComponent
+  ]
 })
 export class AuthLibModule { }
